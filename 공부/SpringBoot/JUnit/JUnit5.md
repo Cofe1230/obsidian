@@ -4,11 +4,11 @@
 - Annotation을 기반으로 테스트를 지원  
 - Assert로 테스트 케이스의 기대값에 대해 수행 결과를 확인 할 수 있다  
 
-## 모듈  
+## [[JUnit모듈]]  
 - [[JUnit Jupiter]]  
 - [[JUnit Platform]]  
 - [[JUni Vintage]]  
-## JUnit LifeCycle Annotation
+## [[JUnit LifeCycle Annotation]]
 | Annotation | Description                                         |
 |:----------:|:--------------------------------------------------- |
 |   [[@Test]]    | 테스트용 메소드를 표현                              |
@@ -16,3 +16,9 @@
 | [[@AfterEach]] | 각 테스트 메소드가 시작된 후 실행되어야 하는 메소드 |
 | [[@BeforeAll]] | 테스트 시작 전에 실행되어야 하는 메소드 (static)    |
 | [[@AfterAll]]  | 테스트 종료 후에 실행되어야 하는 메소드 (static)    | 
+
+## JUnit Main Annotation
+- [[@SpringBootTest]]  
+- [[@ExtendWith]]  
+- [[@WebMvcTest]]  
+- [[@AutoConfigureMockbean]]  
