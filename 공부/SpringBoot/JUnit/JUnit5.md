@@ -22,3 +22,9 @@
 - [[@ExtendWith]]  
 - [[@WebMvcTest]]  
 - [[@AutoConfigureMockbean]]  
+## 링크
+https://goddaehee.tistory.com/212
+- 순환 참조 문제 : https://k3068.tistory.com/32  
+- N+1 문제 : https://programmer93.tistory.com/83
+	- fetch join을 했을때 중복 문제 : strict
+- 

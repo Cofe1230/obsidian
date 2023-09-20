@@ -4,5 +4,6 @@
   "trashOption": "system",
   "alwaysUpdateLinks": true,
   "defaultViewMode": "preview",
-  "newFileLocation": "current"
+  "newFileLocation": "current",
+  "attachmentFolderPath": "assets"
 }
