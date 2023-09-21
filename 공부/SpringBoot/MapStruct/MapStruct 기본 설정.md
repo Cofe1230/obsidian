@@ -2,6 +2,9 @@
 
 >[!info] 추가 확인 방법
 >properties에 JavaCompiler>AnnotationProccessing>FactoryPath에서 확인 가능하다
+
+> [!danger] Dependency 순서
+> MapStruct는 Lombok의 getter setter builder를 사용하기 때문에 Lombok뒤에 추가해야 한다
 #### Apach Maven
 ```xml
 ...
