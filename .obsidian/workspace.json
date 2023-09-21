@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "공부/SpringBoot/MapStruct/MapStruct.md",
-                "mode": "source",
+                "file": "공부/SpringBoot/SpringDataJPA/SpringDataJPA.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "공부/SpringBoot/MapStruct/MapStruct.md",
+                "file": "공부/SpringBoot/SpringDataJPA/SpringDataJPA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "공부/SpringBoot/MapStruct/MapStruct.md",
+                "file": "공부/SpringBoot/SpringDataJPA/SpringDataJPA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "공부/SpringBoot/MapStruct/MapStruct.md"
+                "file": "공부/SpringBoot/SpringDataJPA/SpringDataJPA.md"
               }
             }
           },
@@ -157,14 +157,19 @@
   },
   "active": "f18d9554ad116354",
   "lastOpenFiles": [
-    "공부/SpringBoot/SpringDataJPA/N+1 문제.md",
-    "공부/SpringBoot/MapStruct/MapStruct.md",
-    "공부/SpringBoot/MapStruct",
-    "공부/SpringBoot/무제 파일.md",
     "공부/SpringBoot/SpringBoot.md",
     "공부/SpringBoot/SpringDataJPA/SpringDataJPA.md",
+    "공부/SpringBoot/SpringDataJPA/N+1 문제.md",
     "공부/SpringBoot/SpringDataJPA/FetchJoin의 한계.md",
     "공부/SpringBoot/SpringDataJPA/양방향 순환 참조 문제.md",
+    "공부/SpringBoot/MapStruct/MapStruct.md",
+    "공부/SpringBoot/MapStruct/MapStruct 사용 방법.md",
+    "공부/SpringBoot/MapStruct/MapStruct 테스트.md",
+    "공부/Obsidien/Obsidian.md",
+    "공부/Obsidien/Callout.md",
+    "공부/SpringBoot/MapStruct/MapStruct 기본 설정.md",
+    "공부/SpringBoot/MapStruct",
+    "공부/SpringBoot/무제 파일.md",
     "공부/SpringBoot/JUnit/JUnit5.md",
     "무제 파일.canvas",
     "assets/Pasted image 20230921121443.png",
@@ -190,12 +195,8 @@
     "공부/SpringBoot/JUnit/JUnit Jupiter.md",
     "공부/SpringBoot/JUnit/JUnit모듈.md",
     "obsidian/assets/Pasted image 20230919212859.png.md",
-    "공부/SpringBoot/JUnit/JUnit Platform.md",
-    "obsidian/assets/Pasted image 20230919200041.png.md",
     "obsidian/assets",
     "obsidian",
-    "공부/React/React.md",
-    "공부/TDD.md",
     "공부/SpringBoot/SpringDataJPA",
     "공부/React",
     "obsidian/color-extend.css",
