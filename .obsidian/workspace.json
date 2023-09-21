@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "885e99e56228902a",
+        "id": "41a9dc0f7c9fbb57",
         "type": "tabs",
         "children": [
           {
-            "id": "d133ba798fd1a79d",
+            "id": "f18d9554ad116354",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "공부/SpringBoot/SpringDataJPA/양방향 순환 참조 문제.md",
+                "file": "공부/SpringBoot/JUnit/JUnit5.md",
                 "mode": "preview",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "공부/SpringBoot/SpringDataJPA/양방향 순환 참조 문제.md",
+                "file": "공부/SpringBoot/JUnit/JUnit5.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "공부/SpringBoot/SpringDataJPA/양방향 순환 참조 문제.md",
+                "file": "공부/SpringBoot/JUnit/JUnit5.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "공부/SpringBoot/SpringDataJPA/양방향 순환 참조 문제.md"
+                "file": "공부/SpringBoot/JUnit/JUnit5.md"
               }
             }
           },
@@ -155,15 +155,43 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "d133ba798fd1a79d",
+  "active": "f18d9554ad116354",
   "lastOpenFiles": [
-    "assets/Pasted image 20230920153542.png",
-    "공부/SpringBoot/JUnit/JUnit5.md",
-    "공부/SpringBoot/SpringDataJPA/양방향 순환 참조 문제.md",
-    "공부/React/React.md",
-    "공부/SpringBoot/SpringDataJPA/N+1 문제.md",
+    "무제 파일.canvas",
     "공부/SpringBoot/SpringDataJPA/SpringDataJPA.md",
+    "공부/SpringBoot/SpringDataJPA/양방향 순환 참조 문제.md",
+    "공부/SpringBoot/SpringDataJPA/FetchJoin의 한계.md",
+    "공부/SpringBoot/SpringDataJPA/N+1 문제.md",
+    "assets/Pasted image 20230921121443.png",
+    "assets/Pasted image 20230921120146.png",
+    "assets/Pasted image 20230921114601.png",
+    "assets/Pasted image 20230921114514.png",
+    "assets/Pasted image 20230921111136.png",
+    "assets/Pasted image 20230921111111.png",
+    "공부/SpringBoot/JUnit/JUnit LifeCycle Annotation.md",
+    "공부/SpringBoot/JUnit/JUnit5.md",
+    "공부/SpringBoot/JUnit/@AfterAll.md",
     "공부/SpringBoot/SpringBoot.md",
+    "공부/SpringBoot/SpringDataJPA/[SpringDataJPA.md",
+    "공부/SpringBoot/JUnit/@Mockbean.md",
+    "assets/Pasted image 20230920153542.png",
+    "assets/Pasted image 20230919212859.png",
+    "assets/Pasted image 20230919212745.png",
+    "assets/Pasted image 20230919200041.png",
+    "공부/SpringBoot/JUnit/@AfterEach.md",
+    "공부/SpringBoot/JUnit/@BeforeAll.md",
+    "공부/SpringBoot/JUnit/@BeforeEach.md",
+    "공부/SpringBoot/JUnit/@SpringBootTest.md",
+    "공부/SpringBoot/JUnit/@Test.md",
+    "공부/SpringBoot/JUnit/JUni Vintage.md",
+    "공부/SpringBoot/JUnit/JUnit Jupiter.md",
+    "공부/SpringBoot/JUnit/JUnit모듈.md",
+    "obsidian/assets/Pasted image 20230919212859.png.md",
+    "공부/SpringBoot/JUnit/JUnit Platform.md",
+    "obsidian/assets/Pasted image 20230919200041.png.md",
+    "obsidian/assets",
+    "obsidian",
+    "공부/React/React.md",
     "공부/TDD.md",
     "공부/SpringBoot/SpringDataJPA",
     "공부/React",
@@ -171,29 +199,10 @@
     "obsidian/color-extend.css",
     "obsidian/color-extend 1.css",
     "obsidian/공부/SpringBoot/JUnit/JUnit5.md",
-    "obsidian/공부/SpringBoot/JUnit/JUnit Platform.md",
-    "obsidian/공부/SpringBoot/JUnit/JUnit Jupiter.md",
-    "obsidian/공부/SpringBoot/JUnit/JUni Vintage.md",
-    "obsidian/공부/SpringBoot/JUnit/@Test.md",
-    "obsidian/공부/SpringBoot/JUnit/@BeforeEach.md",
-    "obsidian/공부/SpringBoot/JUnit/@AfterEach.md",
-    "obsidian/공부/SpringBoot/SpringBoot.md",
     "obsidian/공부/SpringBoot/JUnit",
-    "obsidian/공부/Obsidien/Obsidian.md",
-    "obsidian/공부/Obsidien/Callout.md",
-    "obsidian/공부/TDD.md",
     "obsidian/공부/SpringBoot",
     "obsidian/공부/Obsidien",
     "obsidian/공부",
-    "obsidian",
-    "obsidian-study",
-    "공부/SpringBoot/JUnit/JUni Vintage.md",
-    "공부/SpringBoot/JUnit/@Test.md",
-    "공부/SpringBoot/JUnit/@BeforeEach.md",
-    "공부/SpringBoot/JUnit/@AfterEach.md",
-    "공부/SpringBoot/JUnit/JUnit Jupiter.md",
-    "공부/SpringBoot/JUnit/JUnit Platform.md",
-    "무제 파일.canvas",
     "공부/무제 파일.canvas"
   ]
 }

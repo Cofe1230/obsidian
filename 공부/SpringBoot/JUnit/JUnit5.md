@@ -2,7 +2,7 @@
 - Java 진영의 대표적인 Test Framework  
 - 단위 테스트 (Unit Test)를 위한 도구 제공  
 - Annotation을 기반으로 테스트를 지원  
-- Assert로 테스트 케이스의 기대값에 대해 수행 결과를 확인 할 수 있다  
+- Assert로 테스트 케이스의 기댓값에 대해 수행 결과를 확인 할 수 있다  
 
 ## [[JUnit모듈]]  
 - [[JUnit Jupiter]]  
@@ -23,8 +23,4 @@
 - [[@WebMvcTest]]  
 - [[@AutoConfigureMockbean]]  
 ## 링크
-https://goddaehee.tistory.com/212
-- 순환 참조 문제 : https://k3068.tistory.com/32  
-- N+1 문제 : https://programmer93.tistory.com/83
-	- fetch join을 했을때 중복 문제 : strict
-- 
+- 단위테스트 어노테이션 https://goddaehee.tistory.com/212
