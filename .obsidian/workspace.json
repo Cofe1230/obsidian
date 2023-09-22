@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "공부/SpringBoot/MapStruct/MapStruct 사용 방법.md",
+                "file": "공부/SpringBoot/SpringDataJPA/N+1 문제.md",
                 "mode": "preview",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "공부/SpringBoot/MapStruct/MapStruct 사용 방법.md",
+                "file": "공부/SpringBoot/SpringDataJPA/N+1 문제.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "공부/SpringBoot/MapStruct/MapStruct 사용 방법.md",
+                "file": "공부/SpringBoot/SpringDataJPA/N+1 문제.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "공부/SpringBoot/MapStruct/MapStruct 사용 방법.md"
+                "file": "공부/SpringBoot/SpringDataJPA/N+1 문제.md"
               }
             }
           },
@@ -156,19 +156,20 @@
   },
   "active": "84370d97080edf46",
   "lastOpenFiles": [
+    "공부/SpringBoot/SpringDataJPA/FetchJoin의 한계.md",
+    "공부/SpringBoot/SpringDataJPA/양방향 순환 참조 문제.md",
+    "공부/SpringBoot/SpringBoot.md",
+    "무제 파일.canvas",
+    "공부/TDD.md",
+    "공부/Obsidien/Obsidian.md",
+    "공부/Obsidien/Callout.md",
     "공부/SpringBoot/MapStruct/MapStruct.md",
+    "공부/SpringBoot/MapStruct/MapStruct 테스트.md",
     "공부/SpringBoot/MapStruct/MapStruct 기본 설정.md",
     "공부/SpringBoot/MapStruct/MapStruct 사용 방법.md",
     "공부/JAVA/리플렉션.md",
     "공부/JAVA",
-    "공부/SpringBoot/SpringBoot.md",
-    "공부/Obsidien/Obsidian.md",
     "공부/React/React.md",
-    "공부/TDD.md",
-    "무제 파일.canvas",
-    "공부/SpringBoot/MapStruct/MapStruct 테스트.md",
-    "공부/Obsidien/Callout.md",
-    "공부/SpringBoot/SpringDataJPA/FetchJoin의 한계.md",
     "공부/SpringBoot/MapStruct",
     "obsidian/assets/Pasted image 20230919212859.png.md",
     "obsidian/assets/Pasted image 20230919200041.png.md",
@@ -181,7 +182,6 @@
     "assets/Pasted image 20230921111136.png",
     "assets/Pasted image 20230921111111.png",
     "공부/SpringBoot/mapstruct.md",
-    "공부/SpringBoot/SpringDataJPA/양방향 순환 참조 문제.md",
     "assets/Pasted image 20230920153542.png",
     "공부/SpringBoot/JUnit/JUnit5.md",
     "공부/SpringBoot/SpringDataJPA/N+1 문제.md",
