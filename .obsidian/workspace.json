@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "공부/SpringBoot/MapStruct/MapStruct 사용 방법.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               }
             }
@@ -156,9 +156,9 @@
   },
   "active": "84370d97080edf46",
   "lastOpenFiles": [
-    "공부/SpringBoot/MapStruct/MapStruct.md",
     "공부/SpringBoot/MapStruct/MapStruct 기본 설정.md",
     "공부/SpringBoot/MapStruct/MapStruct 사용 방법.md",
+    "공부/SpringBoot/MapStruct/MapStruct.md",
     "공부/JAVA/리플렉션.md",
     "공부/JAVA",
     "공부/SpringBoot/SpringBoot.md",

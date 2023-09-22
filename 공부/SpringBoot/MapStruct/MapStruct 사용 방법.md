@@ -71,4 +71,49 @@ public interface BoardMapper {
 }
 ```
 
-## 5.  객체를 매핑하거나 입출력이 다른 경우
+## 5.  객체나 컬렉션을 매핑하는 경우
+
+```java
+@Getter
+@Builder
+public class BoardEntity {
+	private long id;
+	private String title;
+	private String content;
+	private AddressEntity address;
+	}
+```
+```java
+@Getter @Setter
+@Builder
+public class BoardDTO {
+	private long id;
+	private String title;
+	private String content;
+	private AddressDTO address;
+	}
+```
+```java
+
+```
+>AddressEntity 와 AddressDTO의 내부가 동일해서 따로 매핑이 필요 없는 경우
+```java
+@Mapper
+public interface BoardMapper {
+
+BoardDTO toBoardDTO(BoardEntity boardEntity);
+}
+```
+>따로 추가할 필요 없이 자동으로 매핑된다
+
+>Address 내부 Entity와 DTO내의 이름이 달라서 매핑이 필요한 경우
+>
+## 6. 매핑시 추가하는 표현식이 있는 경우
+```java
+@Mapper
+public interface BoardMapper {
+	//entity title에 title이라는 글자를 추가해서 매핑한 것
+	@Mapping(target = "title", expression = "java(boardEntity.getTitle()+\"title\")")
+	BoardDTO toBoardDTO(BoardEntity boardEntity);
+}
+```
