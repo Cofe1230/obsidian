@@ -13,8 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
+<<<<<<< HEAD
                 "file": "공부/SpringBoot/SpringDataJPA/N+1 문제.md",
                 "mode": "preview",
+=======
+                "file": "공부/SpringBoot/MapStruct/MapStruct 사용 방법.md",
+                "mode": "source",
+>>>>>>> 685b6b7fb4b313fd7fbb29313f87e296fef93306
                 "source": false
               }
             }
@@ -156,6 +161,7 @@
   },
   "active": "84370d97080edf46",
   "lastOpenFiles": [
+<<<<<<< HEAD
     "공부/SpringBoot/SpringDataJPA/FetchJoin의 한계.md",
     "공부/SpringBoot/SpringDataJPA/양방향 순환 참조 문제.md",
     "공부/SpringBoot/SpringBoot.md",
@@ -165,8 +171,11 @@
     "공부/Obsidien/Callout.md",
     "공부/SpringBoot/MapStruct/MapStruct.md",
     "공부/SpringBoot/MapStruct/MapStruct 테스트.md",
+=======
+>>>>>>> 685b6b7fb4b313fd7fbb29313f87e296fef93306
     "공부/SpringBoot/MapStruct/MapStruct 기본 설정.md",
     "공부/SpringBoot/MapStruct/MapStruct 사용 방법.md",
+    "공부/SpringBoot/MapStruct/MapStruct.md",
     "공부/JAVA/리플렉션.md",
     "공부/JAVA",
     "공부/React/React.md",
