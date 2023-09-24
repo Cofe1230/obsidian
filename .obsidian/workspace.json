@@ -4,27 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "0422d8b05fedbcde",
+        "id": "0dde2de614fe9f18",
         "type": "tabs",
         "children": [
           {
-            "id": "84370d97080edf46",
+            "id": "eba29dbe3a31b102",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-<<<<<<< HEAD
-                "file": "공부/SpringBoot/SpringDataJPA/N+1 문제.md",
-                "mode": "preview",
-=======
+                "file": "공부/SpringBoot/MapStruct/MapStruct.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ee44b13ced6a1143",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "공부/SpringBoot/MapStruct/MapStruct 사용 방법.md",
                 "mode": "source",
->>>>>>> 685b6b7fb4b313fd7fbb29313f87e296fef93306
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -90,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "공부/SpringBoot/SpringDataJPA/N+1 문제.md",
+                "file": "공부/SpringBoot/MapStruct/MapStruct 사용 방법.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "공부/SpringBoot/SpringDataJPA/N+1 문제.md",
+                "file": "공부/SpringBoot/MapStruct/MapStruct 사용 방법.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -130,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "공부/SpringBoot/SpringDataJPA/N+1 문제.md"
+                "file": "공부/SpringBoot/MapStruct/MapStruct 사용 방법.md"
               }
             }
           },
@@ -159,23 +167,31 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "84370d97080edf46",
+  "active": "ee44b13ced6a1143",
   "lastOpenFiles": [
-<<<<<<< HEAD
+    "공부/SpringBoot/MapStruct/MapStruct 기본 설정.md",
+    "공부/SpringBoot/MapStruct/MapStruct.md",
+    "공부/SpringBoot/SpringDataJPA/SpringDataJPA.md",
+    "공부/SpringBoot/MapStruct/MapStruct Config 정책.md",
+    "공부/SpringBoot/MapStruct/MapStruct 사용 방법.md",
+    "공부/SpringBoot/MapStruct/MapStruct 테스트.md",
+    "공부/SpringBoot/SpringDataJPA/N+1 문제.md",
     "공부/SpringBoot/SpringDataJPA/FetchJoin의 한계.md",
     "공부/SpringBoot/SpringDataJPA/양방향 순환 참조 문제.md",
+    "공부/Obsidien/Callout.md",
+    "공부/SpringBoot/JUnit/JUni Vintage.md",
+    "공부/SpringBoot/JUnit/@Test.md",
+    "공부/SpringBoot/JUnit/@SpringBootTest.md",
+    "공부/SpringBoot/JUnit/@BeforeEach.md",
+    "공부/SpringBoot/JUnit/@Mockbean.md",
+    "공부/SpringBoot/JUnit/@BeforeAll.md",
+    "공부/SpringBoot/JUnit/@AfterEach.md",
+    "공부/SpringBoot/JUnit/@AfterAll.md",
+    "assets/Pasted image 20230922212557.png",
     "공부/SpringBoot/SpringBoot.md",
     "무제 파일.canvas",
     "공부/TDD.md",
     "공부/Obsidien/Obsidian.md",
-    "공부/Obsidien/Callout.md",
-    "공부/SpringBoot/MapStruct/MapStruct.md",
-    "공부/SpringBoot/MapStruct/MapStruct 테스트.md",
-=======
->>>>>>> 685b6b7fb4b313fd7fbb29313f87e296fef93306
-    "공부/SpringBoot/MapStruct/MapStruct 기본 설정.md",
-    "공부/SpringBoot/MapStruct/MapStruct 사용 방법.md",
-    "공부/SpringBoot/MapStruct/MapStruct.md",
     "공부/JAVA/리플렉션.md",
     "공부/JAVA",
     "공부/React/React.md",
@@ -192,20 +208,10 @@
     "assets/Pasted image 20230921111111.png",
     "공부/SpringBoot/mapstruct.md",
     "assets/Pasted image 20230920153542.png",
-    "공부/SpringBoot/JUnit/JUnit5.md",
-    "공부/SpringBoot/SpringDataJPA/N+1 문제.md",
-    "공부/SpringBoot/SpringDataJPA/SpringDataJPA.md",
     "공부/SpringBoot/SpringDataJPA",
     "공부/React",
     "obsidian/color-extend.css",
     "obsidian/color-extend 1.css",
-    "obsidian/공부/SpringBoot/JUnit/JUnit5.md",
-    "obsidian/공부/SpringBoot/JUnit/JUnit Platform.md",
-    "obsidian/공부/SpringBoot/JUnit/JUnit Jupiter.md",
-    "obsidian/공부/SpringBoot/JUnit/JUni Vintage.md",
-    "obsidian/공부/SpringBoot/JUnit/@Test.md",
-    "obsidian/공부/SpringBoot/JUnit/@BeforeEach.md",
-    "obsidian/공부/SpringBoot/JUnit/@AfterEach.md",
     "obsidian/공부/SpringBoot/JUnit",
     "obsidian/공부/SpringBoot",
     "공부/무제 파일.canvas"

@@ -9,11 +9,14 @@
 >- Lombok의 getter, setter, builder를 이용하기 때문에 Lombok이 필수에 MapStruct보다 먼저 dependency가 추가되어야 한다
 ## 사용 방법
 ### [[MapStruct 기본 설정]]
+### [[MapStruct Config 정책]]
 ### [[MapStruct 사용 방법]]
 ### [[MapStruct 테스트]]
 ## 참고
 ##### 참고
-https://medium.com/naver-cloud-platform/%EA%B8%B0%EC%88%A0-%EC%BB%A8%ED%85%90%EC%B8%A0-%EB%AC%B8%EC%9E%90-%EC%95%8C%EB%A6%BC-%EB%B0%9C%EC%86%A1-%EC%84%9C%EB%B9%84%EC%8A%A4-sens%EC%9D%98-mapstruct-%EC%A0%81%EC%9A%A9%EA%B8%B0-8fd2bc2bc33b
-https://marklee1117.tistory.com/121
+- 네이버 클라우드 플랫폼 : https://blog.naver.com/n_cloudplatform/222957490406
 - 단위 테스트 : https://marklee1117.tistory.com/121
-- https://dev-splin.github.io/spring/Spring-ModelMapper,MapStruct/
+- mapstruct 참고 :  https://dev-splin.github.io/spring/Spring-ModelMapper,MapStruct/
+- date 변화 :https://aljjabaegi.tistory.com/670
+- @BeanMapping : https://mapstruct.org/documentation/stable/api/org/mapstruct/BeanMapping.html
+- 공식 문서 : https://mapstruct.org/documentation/stable/reference/html/#_using_mapstruct_with_the_java_module_system
