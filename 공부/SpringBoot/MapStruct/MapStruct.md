@@ -20,3 +20,4 @@
 - date 변화 :https://aljjabaegi.tistory.com/670
 - @BeanMapping : https://mapstruct.org/documentation/stable/api/org/mapstruct/BeanMapping.html
 - 공식 문서 : https://mapstruct.org/documentation/stable/reference/html/#_using_mapstruct_with_the_java_module_system
+- @retention 사용한 예시가 있다 : https://mein-figur.tistory.com/entry/mapstruct-1
