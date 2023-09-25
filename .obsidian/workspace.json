@@ -23,8 +23,12 @@
             "id": "ee44b13ced6a1143",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "공부/데이터분석/python수업/Python day01.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
@@ -57,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "path:공부  ",
+                "query": "tag:#행과",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -94,6 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "공부/데이터분석/python수업/Python day01.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,6 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "공부/데이터분석/python수업/Python day01.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +137,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "공부/데이터분석/python수업/Python day01.md"
+              }
             }
           },
           {
@@ -162,52 +170,53 @@
   },
   "active": "ee44b13ced6a1143",
   "lastOpenFiles": [
+    "공부/데이터분석/python수업/정규표현식.md",
+    "공부/데이터분석/python수업/Python day01.md",
+    "assets/Pasted image 20230925172449.png",
     "공부/SpringBoot/SpringBoot.md",
-    "공부/SpringBoot/MapStruct/MapStruct Config 정책.md",
     "공부/SpringBoot/SpringBoot 배포 방법.md",
+    "공부/SpringBoot/SpringBoot 빌드 관리 도구.md",
+    "공부/SpringBoot/SpringBoot 프로젝트 생성 및 구조.md",
+    "공부/Obsidien/Callout.md",
+    "공부/Obsidien/Obsidian.md",
+    "공부/SpringBoot/MapStruct/MapStruct.md",
+    "공부/SpringBoot/MapStruct/MapStruct Config 정책.md",
+    "공부/SpringBoot/MapStruct/MapStruct 테스트.md",
     "공부/SpringBoot/MapStruct/MapStruct 기본 설정.md",
     "공부/SpringBoot/MapStruct/MapStruct 사용 방법.md",
-    "공부/SpringBoot/SpringBoot 프로젝트 생성 및 구조.md",
-    "공부/SpringBoot/SpringBoot 빌드 관리 도구.md",
+    "assets/Pasted image 20230925151417.png",
+    "assets/Pasted image 20230925151351.png",
+    "assets/Pasted image 20230925135115.png",
+    "assets/Pasted image 20230925135109.png",
+    "assets/Pasted image 20230925134144.png",
+    "assets/Pasted image 20230925133931.png",
+    "무제 파일.canvas",
+    "공부/TDD.md",
+    "공부/데이터분석/python수업",
+    "assets/Pasted image 20230925105336.png",
+    "assets/Pasted image 20230925105153.png",
+    "assets/Pasted image 20230925093100.png",
+    "공부/데이터분석",
     "공부/SpringBoot/프로젝트 생성 및 구조.md",
     "공부/SpringBoot/빌드.md",
     "공부/SpringBoot/빌드관리도구.md",
-    "assets/Pasted image 20230924211559.png",
-    "공부/SpringBoot/MapStruct/MapStruct.md",
     "공부/SpringBoot/SpringDataJPA/SpringDataJPA.md",
     "공부/SpringBoot/SpringDataJPA/N+1 문제.md",
     "공부/SpringBoot/SpringDataJPA/FetchJoin의 한계.md",
-    "공부/SpringBoot/MapStruct/MapStruct 테스트.md",
     "공부/SpringBoot/SpringDataJPA/양방향 순환 참조 문제.md",
-    "공부/Obsidien/Callout.md",
     "공부/SpringBoot/JUnit/JUni Vintage.md",
     "공부/SpringBoot/JUnit/@Test.md",
     "공부/SpringBoot/JUnit/@SpringBootTest.md",
     "공부/SpringBoot/JUnit/@BeforeEach.md",
     "공부/SpringBoot/JUnit/@Mockbean.md",
-    "공부/SpringBoot/JUnit/@BeforeAll.md",
-    "공부/SpringBoot/JUnit/@AfterEach.md",
-    "공부/SpringBoot/JUnit/@AfterAll.md",
-    "assets/Pasted image 20230922212557.png",
-    "무제 파일.canvas",
-    "공부/TDD.md",
     "공부/JAVA",
     "공부/SpringBoot/MapStruct",
     "obsidian/assets",
     "obsidian",
-    "assets/Pasted image 20230921121443.png",
-    "assets/Pasted image 20230921120146.png",
-    "assets/Pasted image 20230921114601.png",
-    "assets/Pasted image 20230921114514.png",
-    "assets/Pasted image 20230921111136.png",
-    "assets/Pasted image 20230921111111.png",
-    "assets/Pasted image 20230920153542.png",
     "공부/SpringBoot/SpringDataJPA",
     "공부/React",
     "obsidian/color-extend.css",
     "obsidian/color-extend 1.css",
-    "obsidian/공부/SpringBoot/JUnit",
-    "obsidian/공부/SpringBoot",
     "공부/무제 파일.canvas"
   ]
 }
