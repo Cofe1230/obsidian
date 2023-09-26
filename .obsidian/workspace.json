@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "공부/SpringBoot/MapStruct/MapStruct.md",
+                "file": "공부/SpringBoot/MapStruct/MapStruct 테스트.md",
                 "mode": "preview",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "공부/SpringBoot/MapStruct/MapStruct.md",
+                "file": "공부/SpringBoot/MapStruct/MapStruct 테스트.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "공부/SpringBoot/MapStruct/MapStruct.md",
+                "file": "공부/SpringBoot/MapStruct/MapStruct 테스트.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "공부/SpringBoot/MapStruct/MapStruct.md"
+                "file": "공부/SpringBoot/MapStruct/MapStruct 테스트.md"
               }
             }
           },
@@ -168,13 +168,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "ee44b13ced6a1143",
+  "active": "c0095217da689fd1",
   "lastOpenFiles": [
+    "공부/무제 폴더",
+    "공부/SpringBoot/MapStruct/MapStruct.md",
     "공부/SpringBoot/MapStruct/MapStruct Config 정책.md",
     "공부/SpringBoot/SpringBoot 프로젝트 생성 및 구조.md",
     "공부/SpringBoot/SpringBoot.md",
     "공부/SpringBoot/SpringBoot 빌드 관리 도구.md",
-    "공부/SpringBoot/MapStruct/MapStruct.md",
     "공부/SpringBoot/MapStruct/MapStruct 테스트.md",
     "공부/데이터분석/python수업/Python 01 pands, re, 웹크롤링.md",
     "assets/Pasted image 20230926122601.png",
