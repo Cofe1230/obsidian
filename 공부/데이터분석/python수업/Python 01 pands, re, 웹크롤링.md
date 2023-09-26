@@ -526,7 +526,7 @@ nums = soup.select('#container > div > div.bx_lotto_winnum > span.ball')
 for i in nums:
   print(i.string, end='\t')
 ```
-#### d01_cr06.py - 웹크롤링 04 +엑셀로 출력
+#### d01_cr06.py - 웹 크롤링 04 +엑셀로 출력
 >[!note] naver 주식에서 인기 검색 종목을 크롤링 해보자
 ```python
 import requests
