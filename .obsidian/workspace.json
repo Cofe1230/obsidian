@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "공부/SpringBoot/SpringBoot 배포 방법.md",
+                "file": "공부/JAVA/JDK JRE.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "공부/SpringBoot/SpringBoot 배포 방법.md",
+                "file": "공부/JAVA/JDK JRE.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "공부/SpringBoot/SpringBoot 배포 방법.md",
+                "file": "공부/JAVA/JDK JRE.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "공부/SpringBoot/SpringBoot 배포 방법.md"
+                "file": "공부/JAVA/JDK JRE.md"
               }
             }
           },
@@ -156,31 +156,33 @@
   },
   "active": "beccf35802e59abe",
   "lastOpenFiles": [
+    "공부/JAVA/Java Virtual Machine.md",
+    "공부/JAVA/Java.md",
+    "공부/JAVA/Java 메모리 구조.md",
+    "공부/JAVA/Garbage Collection.md",
+    "공부/JAVA/리플렉션.md",
+    "공부/데이터분석/python수업/Python 01 pands, re, 웹크롤링.md",
+    "공부/데이터분석/python수업/String 메서드.md",
+    "공부/SpringBoot/H2.md",
     "공부/SpringBoot/SpringBoot.md",
-    "공부/SpringBoot/SpringBoot 빌드 관리 도구.md",
+    "공부/SpringBoot/MapStruct/MapStruct 기본 설정.md",
+    "공부/SpringBoot/MapStruct/MapStruct.md",
+    "공부/SpringBoot/SpringDataJPA/SpringDataJPA.md",
     "공부/SpringBoot/SpringBoot 배포 방법.md",
+    "공부/알고리즘/시간복잡도.md",
+    "공부/SpringBoot/SpringBoot 빌드 관리 도구.md",
+    "공부/SpringBoot/MapStruct/MapStruct Config 정책.md",
+    "공부/SpringBoot/MapStruct/MapStruct 테스트.md",
+    "공부/SpringBoot/MapStruct/MapStruct 사용 방법.md",
+    "공부/SpringBoot/SpringDataJPA/JWT.md",
     "공부/SpringBoot/SpringBoot 프로젝트 생성 및 구조.md",
     "공부/React/React.md",
-    "공부/JAVA/Java 메모리 구조.md",
-    "공부/JAVA/Java.md",
-    "공부/JAVA/Garbage Collection.md",
-    "공부/JAVA/Java Virtual Machine.md",
-    "공부/JAVA/리플렉션.md",
-    "공부/알고리즘/시간복잡도.md",
     "공부/JAVA/JDK JRE.md",
     "공부/알고리즘",
-    "공부/데이터분석/python수업/String 메서드.md",
     "assets/Pasted image 20231004113303.png",
     "assets/Pasted image 20231004110225.png",
     "assets/Pasted image 20231004102257.png",
-    "공부/SpringBoot/SpringDataJPA/SpringDataJPA.md",
-    "공부/데이터분석/python수업/Python 01 pands, re, 웹크롤링.md",
-    "공부/SpringBoot/MapStruct/MapStruct.md",
     "공부/데이터분석/python수업/정규표현식.md",
-    "공부/SpringBoot/MapStruct/MapStruct 기본 설정.md",
-    "공부/SpringBoot/MapStruct/MapStruct 사용 방법.md",
-    "공부/SpringBoot/MapStruct/MapStruct 테스트.md",
-    "공부/SpringBoot/MapStruct/MapStruct Config 정책.md",
     "assets/Pasted image 20230926122601.png",
     "assets/Pasted image 20230926121725.png",
     "assets/Pasted image 20230926120542.png",
@@ -188,8 +190,6 @@
     "공부/SpringBoot/SpringDataJPA/FetchJoin의 한계.md",
     "공부/SpringBoot/SpringDataJPA/양방향 순환 참조 문제.md",
     "assets/Pasted image 20230925172449.png",
-    "공부/Obsidien/Callout.md",
-    "공부/Obsidien/Obsidian.md",
     "assets/Pasted image 20230925151417.png",
     "assets/Pasted image 20230925151351.png",
     "assets/Pasted image 20230925135115.png",
