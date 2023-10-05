@@ -1,4 +1,4 @@
-## JUnit5 테스트 할때 쓴 코드
+## JUnit5 테스트 코드
 ```java
 public class BoardDTOMapperTest {
 

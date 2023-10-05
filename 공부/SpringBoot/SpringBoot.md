@@ -6,6 +6,8 @@
 ## Database
 > - Mysql
 > - [[H2]]
+## 보안
+> - [[SpringSecurity]]
 ## 맵핑 라이브러리
 - [[MapStruct]]
 ## DB연결 방식
