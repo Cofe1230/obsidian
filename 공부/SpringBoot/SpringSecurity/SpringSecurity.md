@@ -22,9 +22,28 @@
 
 > 1. 사용자가 로그인을 요청 (Http Request)
 > 2. AuthenticationFilter에서 UsernamePasswordAuthentication Token을 생성
-> 3. AuthenticationManager로 전달
-> 4. 
+> 3. AuthenticationManager에 전달
+> 4. AuthenticationProvider에 유저 인증 요청
+> 5. UserDetailService를 통해 User 조회 요청
+> 6. UserDetails에서 User(db)를 통해 조회
+> 7. User에 요청 정보가 있는 경우 유저 session을 생성
+> 8. 인증이 성공할 경우 성공 UsernameAuthenticationToken 을 생성하여 AuthenticationManager로 전달
+> 9.  UsernameAuthenticationToken을 AuthneticationFilter로 전달
+> 10. 전달받은 UsernameAuthentication 을 LoginSuccessHandler 로 전송하고, spring security 인메모리 세션저장소인 SecurityContextHolder 에 저장
+> 11. 유저에게 session ID 와 response
+
+### AuthenticationFilter
+> - 모든 Request 는 인증과 인가를 위해서 이 필터를 통과
+> - SecurityContext 에 사용자의 세션 ID 가 있는지 확인 하고 세션 ID 가 없는 경우 다음 로직 수행
+> - 인증 성공하는 경우 인증된 Authentication 객체를 SecurityContext 에 저장 후 AuthenticationSuccessHandler 실행
+> - - 인증 실패하는 경우 AuthenticationFailureHandler 실행
+### ### UsernamePasswordAuthenticationToken
+
+
 
 ## 참고
 - [WebSecurity HTTP Security 차이](https://velog.io/@gkdud583/HttpSecurity-WebSecurity%EC%9D%98-%EC%B0%A8%EC%9D%B4) 
-- 
+- https://velog.io/@soyeon207/SpringBoot-%EC%8A%A4%ED%94%84%EB%A7%81-%EC%8B%9C%ED%81%90%EB%A6%AC%ED%8B%B0%EB%9E%80
+- https://wikidocs.net/162150
+- https://mangkyu.tistory.com/76
+- https://gngsn.tistory.com/160
