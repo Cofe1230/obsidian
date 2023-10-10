@@ -234,6 +234,50 @@ with open('melon.csv','w', encoding='utf-8-sig') as file :
     row = ','.join(item)
     file.write(row+'\n')
 ```
+### 동적 크롤링 (Selenium 추출)  + 로딩 시간 +xpath
+```python
+from selenium import webdriver as wd
+from selenium.webdriver.common.by import By
+import pandas as pd;
+import re;
+
+#selenium 사용해서 추출해보기
+driver = wd.Chrome()
+
+#동적 크롤링 할 때는 데이터를 받아오기전에 크롤링 하면 오류가 날 수 있어 로딩시간을 주는 것이 좋다
+driver.implicitly_wait(2)
+driver.get('https://www.melon.com/chart/index.htm')
+
+# //*[@id="frm"]/div/table/tbody xpath를 써도 된다
+tbody = driver.find_element(By.XPATH,'//*[@id="frm"]/div/table/tbody')
+trs = tbody.find_elements(By.TAG_NAME,'tr')
+
+data = []
+for tr in trs:
+  rank = tr.find_element(By.CLASS_NAME,'rank').text
+  name = tr.find_element(By.CLASS_NAME,'wrap_song_info').find_element(By.TAG_NAME,'a').text
+  singer = tr.find_element(By.CSS_SELECTOR,'div.ellipsis.rank02').find_element(By.TAG_NAME,'a').text
+  album = tr.find_element(By.CSS_SELECTOR,'div.ellipsis.rank03').find_element(By.TAG_NAME,'a').text
+  like = tr.find_element(By.CLASS_NAME,'like').find_element(By.CLASS_NAME,'cnt').text
+  like = re.sub(',','',like)
+  data.append([rank,name,singer,album,like])
+
+print(data)
+#pandas를 이용한 csv 파일 
+df1 = pd.DataFrame(data,columns=('순위','제목','가수','엘범','좋아요 수'))
+df1.to_csv('melon33.csv', encoding='utf-8-sig', index=False)
+```
+### 동적 크롤링 자바스크립트 사용
+```python
+from selenium import webdriver
+
+driver = webdriver.Chrome()
+driver.get('https://google.com')
+
+#자바 스크립트 호출 할 때 사용
+r = driver.execute_script("return 1000*50")
+print(r)
+```
 ## 정적 크롤링 (request get 사용이 안될 때)
 >[!note] 개요
 >크롤링이 전체 허용이 아닐 경우 단순히 get으로 받아 왔을 때 정적 페이지 소스 코드가 추출이 안 될 수 있다. 일부 허용에 사용이 가능하다면 header를 추가해 정적 페이지 추출이 가능하다
@@ -267,7 +311,89 @@ print(data)
 
 ![[Pasted image 20231006133802.png]]
 
-```cmd
-pip install lxml
+## 정적 크롤링 데이터베이스(mysql) 연결
+### 크롤링 후 내용 데이터베이스 저장(CREATE)
+```python
+from bs4 import BeautifulSoup;
+import requests;
+import pymysql;
 
+#영화이름 평점 예매율
+#db연결
+dbURL = '127.0.0.1'
+dbPort = 3306
+dbUser = 'root'
+dbPass = 'root'
+
+conn = pymysql.connect(host=dbURL,port=dbPort,user=dbUser, passwd=dbPass,
+                       db='bigdb', charset='utf8', use_unicode=True)
+insert_sql = "insert into daum_movie(title,grade,reserve) values(%s, %s, %s)"
+
+req = requests.get("https://movie.daum.net/ranking/reservation")
+html = req.text
+soup = BeautifulSoup(html,'html.parser')
+
+#find 사용
+ols = soup.find('ol',class_='list_movieranking')
+lis = ols.find_all('div',class_='thumb_cont')
+
+cur = conn.cursor()
+for i in lis :
+  moviename = i.find('a', class_='link_txt').string
+  moviegrade = i.find('span','txt_grade').get_text()
+  movieReser = i.find('span',{'class':'txt_num'}).get_text()
+  print('영화 : ',moviename, end =' / ')
+  print('평점 : ', moviegrade, end=' / ')
+  print('예매율 : ', movieReser)
+  cur.execute(insert_sql,(moviename,moviegrade,movieReser))
+  conn.commit()
+```
+
+### DB에서 불러와서 그래프로 작성(READ)
+```python
+import pymysql;
+import matplotlib as mpl
+import matplotlib.pyplot as plt
+
+#db에서 불러와서 그래프로 그리기
+#db연결
+dbURL = '127.0.0.1'
+dbPort = 3306
+dbUser = 'root'
+dbPass = 'root'
+
+conn = pymysql.connect(host=dbURL,port=dbPort,user=dbUser, passwd=dbPass,
+                       db='bigdb', charset='utf8', use_unicode=True)
+
+select_sql = "select grade from daum_movie"
+
+cur = conn.cursor()
+cur.execute(select_sql)
+#결과값 반환 방법
+movies = cur.fetchall() #tuple형
+print(type(movies))
+
+#평점이 9점이상, 8점이상, 6점이상, 6점미만 ==> pie
+movieDic = {'9점 이상' : 0,'8점 이상' : 0,'6점 이상' : 0, '6점 미만':0}
+for movie in movies :
+  movie = float(movie[0])
+  if movie >= 9 :
+    movieDic['9점 이상'] += 1
+  elif movie >= 8 :
+    movieDic['8점 이상'] += 1
+  elif movie >= 6 :
+    movieDic['6점 이상'] += 1
+  else :
+    movieDic['6점 미만'] += 1
+
+print(movieDic)
+
+#한글
+font_name = mpl.font_manager.FontProperties(fname='C:/windows/fonts/malgun.ttf').get_name()
+mpl.rc('font',family=font_name)
+
+figure = plt.figure()
+axes = figure.add_subplot(111)
+axes.pie(movieDic.values(),labels=movieDic.keys(),autopct='%.1f%%')
+plt.show()
 ```
