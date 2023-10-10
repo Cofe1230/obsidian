@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "공부/SpringBoot/SpringSecurity/SpringSecurity.md",
+                "file": "공부/SpringBoot/H2.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "공부/SpringBoot/SpringSecurity/SpringSecurity.md",
+                "file": "공부/SpringBoot/H2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "공부/SpringBoot/SpringSecurity/SpringSecurity.md",
+                "file": "공부/SpringBoot/H2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "공부/SpringBoot/SpringSecurity/SpringSecurity.md"
+                "file": "공부/SpringBoot/H2.md"
               }
             }
           },
@@ -169,14 +169,15 @@
   },
   "active": "a303331ba1e5427b",
   "lastOpenFiles": [
+    "공부/SpringBoot/SpringDataJPA/JpaAuditing 기능으로 Entity 등록, 수정 시간 관리하기.md",
+    "공부/SpringBoot/SpringDataJPA/JWT.md",
+    "공부/SpringBoot/SpringSecurity/SpringSecurity.md",
     "공부/데이터분석/python수업/python 02 그래프, 동적크롤링, 정적크롤링.md",
     "공부/SpringBoot/H2.md",
-    "공부/SpringBoot/SpringSecurity/SpringSecurity.md",
     "공부/SpringBoot/SpringDataJPA/SpringDataJPA.md",
     "공부/IT용어/Legacy.md",
     "공부/IT용어/용어 정리.md",
     "공부/SpringBoot/SpringDataJPA/양방향 순환 참조 문제.md",
-    "공부/SpringBoot/SpringDataJPA/JWT.md",
     "공부/데이터분석/python수업/Python 01 pands, re, 웹크롤링.md",
     "공부/데이터분석/python수업/String 메서드.md",
     "공부/데이터분석/python수업/정규표현식.md",
@@ -203,7 +204,6 @@
     "공부/SpringBoot/SpringSecurity",
     "공부/JAVA/Java Virtual Machine.md",
     "공부/JAVA/Java.md",
-    "공부/JAVA/Java 메모리 구조.md",
     "공부/알고리즘",
     "assets/Pasted image 20231004113303.png",
     "assets/Pasted image 20231004110225.png",
