@@ -30,8 +30,10 @@ public class BoardDTOMapperTest {
 ```java
 public interface GenericMapper<D,E> {
 	D toDto(E e);
+	List<D> toDtoList(List<E> e);
 	E toEntity(D d);
-	updateEntityfromDto(D d,@MappingTarget E e);
+	List<E> toEntityList(List<D> d);
+	void updateEntityfromDto(D d,@MappingTarget E e);
 }
 
 @Mapper
