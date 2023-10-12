@@ -1,2 +1,0 @@
-https://rachel0115.tistory.com/entry/JPA-JpaAuditing-%EA%B8%B0%EB%8A%A5%EC%9C%BC%EB%A1%9C-Entity-%EB%93%B1%EB%A1%9D-%EC%88%98%EC%A0%95-%EC%8B%9C%EA%B0%84-%EA%B4%80%EB%A6%AC%ED%95%98%EA%B8%B0
-https://dev-coco.tistory.com/117
