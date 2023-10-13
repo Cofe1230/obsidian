@@ -1,0 +1,3 @@
+- [[Python 01 pands, re, 웹크롤링]]
+- [[python 02 그래프, 동적크롤링, 정적크롤링]]
+- [[python 03 DB에서 그래프 + Django]]
