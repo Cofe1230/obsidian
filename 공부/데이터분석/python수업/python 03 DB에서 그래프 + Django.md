@@ -44,7 +44,7 @@ LANGUAGE_CODE = 'ko'
 TIME_ZONE = 'Asia/Seoul'
 USE_I18N = True
 USE_L18N = True
-USE_TZ = True
+USE_TZ = False
 ```
 #### static folder
 >static 파일(CSS, JavaScript, Images) 폴더 위치
