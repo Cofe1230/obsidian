@@ -108,3 +108,19 @@ class Board(models.Model):
   def down_up(self):
     self.down +=1
 ```
+### ADMIN
+```cmd
+python manage.py createsuperuser
+```
+
+> [!note] 사용자 관리 접속 
+> localhost:8000/admin
+
+### 페이지 이동시 로그인 여부
+```python
+from django.contrib.auth.decorators import login_required
+
+@login_required(login_url='/login/')
+```
+python 경로
+C:\Python\Python311\Lib\site-packages\pytagcloud\fonts

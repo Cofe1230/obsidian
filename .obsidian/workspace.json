@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "공부/프로젝트/데이터분석/주제.md",
+                "file": "공부/프로젝트/데이터분석/프로젝트 구성.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "공부/프로젝트/데이터분석/주제.md",
+                "file": "공부/프로젝트/데이터분석/프로젝트 구성.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "공부/프로젝트/데이터분석/주제.md",
+                "file": "공부/프로젝트/데이터분석/프로젝트 구성.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "공부/프로젝트/데이터분석/주제.md"
+                "file": "공부/프로젝트/데이터분석/프로젝트 구성.md"
               }
             }
           },
@@ -206,31 +206,32 @@
   "active": "2d7e5ced34fe9f1c",
   "lastOpenFiles": [
     "공부/프로젝트/데이터분석/프로젝트 데이터 전처리.md",
+    "공부/프로젝트/데이터분석/프로젝트 구성.md",
     "공부/프로젝트/데이터분석/주제.md",
-    "공부/Obsidien/Callout.md",
-    "공부/Obsidien/Obsidian.md",
-    "공부/React/React.md",
+    "공부/프로젝트/데이터분석/데이터 시각화 (recharts).md",
+    "공부/JAVA/JDK JRE.md",
+    "공부/JAVA/Java Virtual Machine.md",
     "공부/JAVA/Java 메모리 구조.md",
     "공부/JAVA/Java.md",
     "공부/JAVA/Garbage Collection.md",
     "공부/JAVA/리플렉션.md",
-    "공부/IT용어/Legacy.md",
-    "공부/취업.md",
-    "공부/IT용어/용어 정리.md",
-    "공부/SpringBoot/SpringBoot 프로젝트 생성 및 구조.md",
-    "공부/SpringBoot/SpringBoot 빌드 관리 도구.md",
-    "공부/SpringBoot/SpringBoot 배포 방법.md",
+    "assets/Pasted image 20231024102412.png",
     "공부/SpringBoot/SpringBoot.md",
     "공부/SpringBoot/H2.md",
-    "공부/SpringBoot/SpringSecurity/SpringSecurity.md",
-    "공부/SpringBoot/MapStruct/MapStruct.md",
-    "공부/SpringBoot/SpringDataJPA/양방향 순환 참조 문제.md",
-    "공부/알고리즘/시간복잡도.md",
+    "공부/SpringBoot/SpringBoot 배포 방법.md",
+    "공부/SpringBoot/SpringBoot 빌드 관리 도구.md",
+    "공부/SpringBoot/SpringBoot 프로젝트 생성 및 구조.md",
+    "공부/데이터분석/python수업/python 03 DB에서 그래프 + Django.md",
+    "공부/데이터분석/python수업/String 메서드.md",
+    "공부/취업.md",
+    "공부/데이터분석/python수업/Python 수업 목록.md",
     "공부/데이터분석/python수업/Python 01 pands, re, 웹크롤링.md",
     "공부/데이터분석/python수업/python 02 그래프, 동적크롤링, 정적크롤링.md",
-    "공부/데이터분석/python수업/python 03 DB에서 그래프 + Django.md",
-    "공부/데이터분석/python수업/Python 수업 목록.md",
-    "공부/데이터분석/python수업/String 메서드.md",
+    "공부/Obsidien/Callout.md",
+    "공부/Obsidien/Obsidian.md",
+    "공부/React/React.md",
+    "공부/IT용어/Legacy.md",
+    "공부/IT용어/용어 정리.md",
     "무제 파일.canvas",
     "공부/프로젝트/데이터분석",
     "공부/프로젝트",
@@ -246,7 +247,6 @@
     "공부/알고리즘",
     "assets/Pasted image 20231004113303.png",
     "assets/Pasted image 20231004110225.png",
-    "assets/Pasted image 20231004102257.png",
     "공부/데이터분석/python수업",
     "공부/데이터분석",
     "공부/JAVA",
