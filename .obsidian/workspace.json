@@ -1,88 +1,60 @@
 {
   "main": {
-    "id": "6b6cdcf6dfc6baee",
+    "id": "540cbe55c3fbdf4c",
     "type": "split",
     "children": [
       {
-        "id": "73d185e9f4a5c7c1",
+        "id": "9fb2d021ca306105",
         "type": "tabs",
         "children": [
           {
-            "id": "a40ed211a7756fbe",
+            "id": "10d1150949668952",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "67f1e8741926c0d5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "공부/SpringBoot/SpringDataJPA/JPA Auditing 날짜 시간 처리 자동화.md",
+                "file": "공부/프로젝트/데이터분석/주제.md",
                 "mode": "preview",
                 "source": false
               }
             }
           },
           {
-            "id": "03b14f616a1bbb31",
+            "id": "ee735700fa30713d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "공부/데이터분석/python수업/python 02 그래프, 동적크롤링, 정적크롤링.md",
+                "file": "공부/SpringBoot/MapStruct/MapStruct 기본 설정.md",
                 "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1d98d4b6d785cefb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "공부/데이터분석/python수업/python 02 그래프, 동적크롤링, 정적크롤링.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2bac421f5a7ee61e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "공부/프로젝트/데이터분석/주제.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2d7e5ced34fe9f1c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "공부/프로젝트/데이터분석/주제.md",
-                "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "d697deeb2cf80f90",
+    "id": "69eee23bfd851a4c",
     "type": "split",
     "children": [
       {
-        "id": "97e508218b93e29d",
+        "id": "7d3c4ce9f1e70680",
         "type": "tabs",
         "children": [
           {
-            "id": "c0095217da689fd1",
+            "id": "3d5f060e3d334605",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -92,12 +64,12 @@
             }
           },
           {
-            "id": "94077fcaa5369d5d",
+            "id": "c25a8b681021094a",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#행과",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -107,7 +79,7 @@
             }
           },
           {
-            "id": "782bb39c90218d8c",
+            "id": "d31aa3dc63b9423d",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -121,20 +93,20 @@
     "width": 300
   },
   "right": {
-    "id": "b30bd2236f3e21d9",
+    "id": "4ea2e132c5c4a181",
     "type": "split",
     "children": [
       {
-        "id": "5939170a518f406b",
+        "id": "a3da2143198b4ca4",
         "type": "tabs",
         "children": [
           {
-            "id": "627f9c0f15ab7143",
+            "id": "610ef5d12a395aa8",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "공부/프로젝트/데이터분석/주제.md",
+                "file": "공부/SpringBoot/MapStruct/MapStruct 기본 설정.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,19 +118,19 @@
             }
           },
           {
-            "id": "6132f9426343f014",
+            "id": "75d59974c3882f9b",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "공부/프로젝트/데이터분석/주제.md",
+                "file": "공부/SpringBoot/MapStruct/MapStruct 기본 설정.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "b761aa601fa659a6",
+            "id": "7def6e92e297bcaa",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -169,89 +141,41 @@
             }
           },
           {
-            "id": "7cc698612df0eebb",
+            "id": "7c87dc6161e13db6",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "공부/프로젝트/데이터분석/주제.md"
+                "file": "공부/SpringBoot/MapStruct/MapStruct 기본 설정.md"
               }
-            }
-          },
-          {
-            "id": "7f96acd7514b75fe",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "switcher:퀵 스위처 열기": false,
       "graph:그래프 뷰 열기": false,
       "canvas:새 캔버스 만들기": false,
       "daily-notes:오늘의 데일리 노트 열기": false,
       "templates:템플릿 삽입": false,
-      "command-palette:명령어 팔레트 열기": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "2d7e5ced34fe9f1c",
+  "active": "ee735700fa30713d",
   "lastOpenFiles": [
-    "공부/프로젝트/데이터분석/프로젝트 데이터 전처리.md",
-    "공부/프로젝트/데이터분석/주제.md",
-    "공부/Obsidien/Callout.md",
-    "공부/Obsidien/Obsidian.md",
-    "공부/React/React.md",
-    "공부/JAVA/Java 메모리 구조.md",
-    "공부/JAVA/Java.md",
-    "공부/JAVA/Garbage Collection.md",
-    "공부/JAVA/리플렉션.md",
-    "공부/IT용어/Legacy.md",
-    "공부/취업.md",
-    "공부/IT용어/용어 정리.md",
-    "공부/SpringBoot/SpringBoot 프로젝트 생성 및 구조.md",
-    "공부/SpringBoot/SpringBoot 빌드 관리 도구.md",
-    "공부/SpringBoot/SpringBoot 배포 방법.md",
-    "공부/SpringBoot/SpringBoot.md",
-    "공부/SpringBoot/H2.md",
-    "공부/SpringBoot/SpringSecurity/SpringSecurity.md",
     "공부/SpringBoot/MapStruct/MapStruct.md",
-    "공부/SpringBoot/SpringDataJPA/양방향 순환 참조 문제.md",
     "공부/알고리즘/시간복잡도.md",
-    "공부/데이터분석/python수업/Python 01 pands, re, 웹크롤링.md",
-    "공부/데이터분석/python수업/python 02 그래프, 동적크롤링, 정적크롤링.md",
+    "공부/취업.md",
     "공부/데이터분석/python수업/python 03 DB에서 그래프 + Django.md",
-    "공부/데이터분석/python수업/Python 수업 목록.md",
     "공부/데이터분석/python수업/String 메서드.md",
-    "무제 파일.canvas",
-    "공부/프로젝트/데이터분석",
-    "공부/프로젝트",
-    "assets/Pasted image 20231006133802.png",
-    "assets/Pasted image 20231006133709.png",
-    "assets/Pasted image 20231006132259.png",
-    "assets/Pasted image 20231006131737.png",
-    "assets/Pasted image 20231006131710.png",
-    "assets/Pasted image 20231005113050.png",
-    "assets/Pasted image 20231005111628.png",
-    "공부/IT용어",
-    "공부/SpringBoot/SpringSecurity",
-    "공부/알고리즘",
-    "assets/Pasted image 20231004113303.png",
-    "assets/Pasted image 20231004110225.png",
-    "assets/Pasted image 20231004102257.png",
-    "공부/데이터분석/python수업",
-    "공부/데이터분석",
-    "공부/JAVA",
-    "공부/SpringBoot/MapStruct",
-    "obsidian/assets",
-    "공부/무제 파일.canvas"
+    "공부/프로젝트/데이터분석/주제.md",
+    "공부/프로젝트/데이터분석/프로젝트 데이터 전처리.md"
   ]
 }
