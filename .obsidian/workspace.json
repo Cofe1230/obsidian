@@ -217,11 +217,14 @@
   },
   "active": "b011166347acef68",
   "lastOpenFiles": [
-    "공부/데이터분석/python수업/Python 01 pandas, re, 웹크롤링.md",
-    "공부/AWS/참고.md",
-    "공부/AWS/윈도우 SSH접속 시 pem 파일 권한 변경.md",
     "공부/AWS/windows에서 ec2 ssh접속.md",
     "공부/AWS/springboot, react aws배포.md",
+    "공부/AWS/윈도우 SSH접속 시 pem 파일 권한 변경.md",
+    "공부/AWS/참고.md",
+    "공부/프로젝트/데이터분석/프로젝트 데이터 전처리.md",
+    "공부/리눅스/리눅스 timezone 한국 시간 설정.md",
+    "공부/리눅스",
+    "공부/데이터분석/python수업/Python 01 pandas, re, 웹크롤링.md",
     "공부/1111.md",
     "공부/SpringBoot/SpringBoot 배포 방법.md",
     "공부/SpringBoot/SpringBoot 빌드 관리 도구.md",
@@ -242,8 +245,6 @@
     "공부/알고리즘/시간복잡도.md",
     "공부/데이터분석/python수업/python 03 DB에서 그래프 + Django.md",
     "공부/데이터분석/python수업/String 메서드.md",
-    "공부/데이터분석/python수업/Python 수업 목록.md",
-    "공부/프로젝트/데이터분석/프로젝트 데이터 전처리.md",
     "assets/Pasted image 20231024102412.png",
     "무제 파일.canvas",
     "공부/프로젝트/데이터분석",
@@ -263,7 +264,6 @@
     "공부/데이터분석/python수업",
     "공부/데이터분석",
     "공부/JAVA",
-    "공부/SpringBoot/MapStruct",
     "공부/무제 파일.canvas"
   ]
 }
