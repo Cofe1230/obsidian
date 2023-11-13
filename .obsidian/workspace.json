@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "공부/AWS/참고.md",
+                "file": "공부/AWS/springboot, react aws배포.md",
                 "mode": "source",
                 "source": false
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "공부/AWS/참고.md",
+                "file": "공부/AWS/springboot, react aws배포.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "공부/AWS/참고.md",
+                "file": "공부/AWS/springboot, react aws배포.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "공부/AWS/참고.md"
+                "file": "공부/AWS/springboot, react aws배포.md"
               }
             }
           },
@@ -217,8 +217,8 @@
   },
   "active": "b011166347acef68",
   "lastOpenFiles": [
-    "공부/AWS/윈도우 SSH접속 시 pem 파일 권한 변경.md",
     "공부/AWS/참고.md",
+    "공부/AWS/윈도우 SSH접속 시 pem 파일 권한 변경.md",
     "공부/AWS/windows에서 ec2 ssh접속.md",
     "공부/AWS/springboot, react aws배포.md",
     "공부/1111.md",
